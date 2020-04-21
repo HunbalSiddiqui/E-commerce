@@ -1,0 +1,19 @@
+.products_cont_wrapper{
+    display: grid;
+    grid-template-columns: minmax(0rem,1fr) minmax(min-content,1500px) minmax(0rem,1fr);
+    grid-template-rows: minmax(100vh,min-content);
+    grid-template-areas: ". prodcuts_cont .";
+}
+.prodcuts_cont{
+    grid-area: prodcuts_cont;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-rows: 5vh 10vh 5vh 70vh 10vh;
+}
+.product_header{}
+.product_nav{}
+.product_useage_filter{}
+.products_display{}
+.product_footer{
+    background: black;
+}
